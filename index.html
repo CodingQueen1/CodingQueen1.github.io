@@ -12,6 +12,7 @@
     </head>
 
     <body>
+        <div id="container">
 
         <h1 id="top">Hi, This page was made by Katherine Dial!</h1>
         <h2>Table of Contents</h2>
@@ -24,7 +25,7 @@
         <hr>
         <h2>Basic Information</h2>
         <p id="bolden">
-            I am athetic, like to dance, like movies, like to paint, love my family and friends, love my dog, and am vegan.
+            I am athetic, like to dance, like movies, like to paint, <span id="love">love</span> my family and friends, <span id="love">love</span> my dog, and am vegan.
         </p>
         <hr>
         <h2>Favorite Quote</h2>
@@ -74,7 +75,8 @@
         </ol>
         <hr>
         <h2 id="favorite-meals">Favorite Meals</h2>
-        <table id="meals">
+        <div id="meals">
+        <table>
             <thead>
                 <tr>
                     <th>Meal Name</th>
@@ -100,13 +102,17 @@
                 </tr>
             </tbody>
         </table>
-
-        <p id="bottom">
+        </div>
+        
+        <div class="bottom">
+        <p>
         Thanks for Reading!
         <br>
-        <a id="bottom" href="#top">Jump to the Top</a>
+        <a class="bottom" href="#top">Jump to the Top</a>
         </p>
+        </div>
         
+        </div>
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
         
