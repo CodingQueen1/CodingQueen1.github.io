@@ -10,20 +10,26 @@ body{
     color: white;
 
 }
-#bottom{
+.bottom{
     background-color: darkblue;
     color: white;
     line-height: 2em;
 }
 #favorite{
-    border: 2px solid darkblue;
+    border: 12px ridge darkblue;
 }
 .big-quality{
-    background-color: lightblue;
+    background-color: rgb(172, 201, 173);
     text-decoration: underline;
 }
 #bolden{
     font-weight:bold;
+}
+#meals{
+    background-color: lightgray;
+    border: 2px dashed darkgrey;
+    height: 75px;
+    overflow-y: auto;
 }
 table{
     font-family: monospace;
@@ -33,4 +39,18 @@ table{
 }
 #quote{
     font-style: italic;
+}
+#love{
+    color: red;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    border: 2px solid darkblue;
+    border-top: 15px solid darkblue;
+    padding: 15px;
+}
+img{
+    margin: 10px;
+    border: 12px ridge grey;
 }
