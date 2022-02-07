@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Lato', sans-serif;
     /* font-weight: normal; */
     /* background-color: black;
     color: white; */
@@ -19,8 +19,8 @@ body{
     border: 12px ridge darkblue;
 }
 .big-quality{
-    background-color: rgb(172, 201, 173);
-    text-decoration: underline;
+    background-color: darkblue;
+    color: white;
 }
 #bolden{
     font-weight:bold;
@@ -41,7 +41,8 @@ table{
     font-style: italic;
 }
 #love{
-    color: red;
+  background-color: red;
+    color: white;
 }
 #container{
     width: 80%;
@@ -50,7 +51,49 @@ table{
     border-top: 15px solid darkblue;
     padding: 15px;
 }
-img{
+.photo{
     margin: 10px;
     border: 12px ridge grey;
+}
+.character{
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+}
+#toad{
+left: 75%;
+}
+#daisy{
+left: 30%;
+}
+#peach{
+left: 60%;
+}
+#rosalina{
+  left: 45%;
+}
+.game{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+#landscape{
+  border: 10px ridge grey;
+  margin: 0 auto;
+  width: 95%;
+}
+#khanacademy{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+#codelinks{
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+  background-color:beige;
+}
+a:hover, a:focus, a:active{
+  background-color: lightpink;
 }
